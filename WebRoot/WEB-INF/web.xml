@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://java.sun.com/xml/ns/javaee" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd" id="WebApp_ID" version="3.0">
+  <context-param>
+    <description>全局：用于描述所有网页编码</description>
+    <param-name>encoding</param-name>
+    <param-value>UTF-8</param-value>
+  </context-param>
+  
+  <servlet>
+  	<servlet-name>ServletTest1</servlet-name>
+  	<servlet-class>cn.myzchh.servlet.ServletTest1</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>myServletTest</servlet-name>
+    <servlet-class>cn.myzchh.servlet.myServletTest</servlet-class>
+    <init-param>
+    	<description>局部：用于定义配置信息</description>
+    	<param-name>haha</param-name>
+    	<param-value>ohehe</param-value>
+    </init-param>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadTest</servlet-name>
+    <servlet-class>cn.myzchh.servlet.DownloadTest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>AutoRefreshPage</servlet-name>
+    <servlet-class>cn.myzchh.servlet.AutoRefreshPage</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>NoCache</servlet-name>
+    <servlet-class>cn.myzchh.servlet.NoCache</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletContext</servlet-name>
+    <servlet-class>cn.myzchh.servlet.ServletContext</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletContext2</servlet-name>
+    <servlet-class>cn.myzchh.servlet.ServletContext2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletContextTest</servlet-name>
+    <servlet-class>cn.myzchh.servlet.ServletContextTest</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ServletContextTest2</servlet-name>
+    <servlet-class>cn.myzchh.servlet.ServletContextTest2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReadApplocationPublicParameter</servlet-name>
+    <servlet-class>cn.myzchh.servlet.ReadApplocationPublicParameter</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>DownloadTest2</servlet-name>
+    <servlet-class>cn.myzchh.servlet.DownloadTest2</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ReadProperties</servlet-name>
+    <servlet-class>cn.myzchh.servlet.ReadProperties</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>ResponseDemo</servlet-name>
+    <servlet-class>cn.myzchh.servlet.ResponseDemo</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>IdentifyingCode</servlet-name>
+    <servlet-class>cn.myzchh.servlet.IdentifyingCode</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>LoginIn</servlet-name>
+    <servlet-class>cn.myzchh.servlet.LoginIn</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>CacheTime</servlet-name>
+    <servlet-class>cn.myzchh.servlet.CacheTime</servlet-class>
+  </servlet>
+  <servlet>
+    <description>This is the description of my J2EE component</description>
+    <display-name>This is the display name of my J2EE component</display-name>
+    <servlet-name>RequestRedirection</servlet-name>
+    <servlet-class>cn.myzchh.servlet.RequestRedirection</servlet-class>
+  </servlet>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <servlet-mapping>
+  	<servlet-name>ServletTest1</servlet-name>
+  	<url-pattern>/ServletTest1</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>myServletTest</servlet-name>
+    <url-pattern>/servlet/myServletTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadTest</servlet-name>
+    <url-pattern>/servlet/DownloadTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>AutoRefreshPage</servlet-name>
+    <url-pattern>/servlet/AutoRefreshPage</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>NoCache</servlet-name>
+    <url-pattern>/servlet/NoCache</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletContext</servlet-name>
+    <url-pattern>/servlet/ServletContext</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletContext2</servlet-name>
+    <url-pattern>/servlet/ServletContext2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletContextTest</servlet-name>
+    <url-pattern>/servlet/ServletContextTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ServletContextTest2</servlet-name>
+    <url-pattern>/servlet/ServletContextTest2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReadApplocationPublicParameter</servlet-name>
+    <url-pattern>/servlet/ReadApplocationPublicParameter</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>DownloadTest2</servlet-name>
+    <url-pattern>/servlet/DownloadTest2</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ReadProperties</servlet-name>
+    <url-pattern>/servlet/ReadProperties</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>ResponseDemo</servlet-name>
+    <url-pattern>/servlet/ResponseDemo</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>IdentifyingCode</servlet-name>
+    <url-pattern>/servlet/IdentifyingCode</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>LoginIn</servlet-name>
+    <url-pattern>/servlet/LoginIn</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>CacheTime</servlet-name>
+    <url-pattern>/servlet/CacheTime</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+    <servlet-name>RequestRedirection</servlet-name>
+    <url-pattern>/servlet/RequestRedirection</url-pattern>
+  </servlet-mapping>
+  
+  <welcome-file-list>
+    <welcome-file>default.html</welcome-file>
+  </welcome-file-list>
+</web-app>
